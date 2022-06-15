@@ -1,0 +1,50 @@
+
+.navigation {
+    align-items: center;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+}
+
+.navigation ul {  
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navigation ul li {
+    margin-right: 18px;
+    text-decoration: none;
+}
+.navigation ul li .link{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation ul li .link:hover {
+    color: #212529;
+}
+
+.logout{
+    border: none;
+    background-color: transparent;
+    color: #0fff;
+    /* right: 5%; */
+}
+
+.logout:hover{
+    color: #00000F;
+}
+.btn-save{
+    border: none;
+    background-color: transparent;
+    color: #0bff;
+}
+.btn-save:hover{
+    color: black;
+}
+
